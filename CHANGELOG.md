@@ -1,3 +1,9 @@
+#### 1.0.8 (2020-10-19)
+
+##### Other Changes
+
+*  test fix 2 ([f82a5e2e](https://github.com/souless94/recipe-app-api/commit/f82a5e2e9466c158d4bfc29fee7f745970900c62))
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
