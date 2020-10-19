@@ -1,6 +1,6 @@
 {
   "name": "recipe-app-api",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "recipe-app-api source code",
   "main": "commitlint.config.js",
   "scripts": {
@@ -20,12 +20,16 @@
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "husky": "^4.3.0",
-    "semantic-release": "^17.2.1"
+    "semantic-release": "^17.2.1",
+    "standard-version": "^9.0.0"
   },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
-  "dependencies": {}
+  "dependencies": {
+    "changelog": "^1.4.2",
+    "generate-changelog": "^1.8.0"
+  }
 }
