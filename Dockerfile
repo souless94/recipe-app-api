@@ -1,5 +1,5 @@
 FROM python:3.8-alpine
-LABEL maintainer=Souless94
+LABEL maintainer=ReminderJob
 
 ENV PYTHONUNBUFFERED 1
 
